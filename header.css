@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-color: green;
+}
+img
+{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+}
+ul
+{
+    color: white;
+    background-color: green;
+    column-gap: 60px;
+    display: flex;
+    justify-content: center;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+header nav ul li:first-child {
+    list-style-type: none;
+}
+article a
+{
+    color: white;
+}
+article a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+.toldo
+{
+    z-index: -2;
+    margin-left: -140px;
+    position: absolute;
+    margin-top: -40px;
+    display: flex;
+}
+.toldo img {
+    padding: -10px;
+    width: 50%;
+    height: auto; 
+    margin: 0; 
+    
+}

@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@import url(./header.css);
+
+.background
+{
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+}
+.titulo
+{
+    color: green;
+    font-size: 26px;
+}
+.texto
+{
+    padding: 2px;
+    border-radius: 3px;
+    width: 600px;
+    margin-top: 120px;
+    left: 0;
+    height: 60%;
+    margin-left: 50px;
+    background-color: white;
+}
+.texto p
+{
+    position: relative;
+    letter-spacing: 0.5px;
+}
+.texto img
+{
+    width: 75%;
+    height: 100%;
+    padding: 20px;
+}
+iframe
+{
+    margin: 0 20px;
+    border-radius: 5px;
+    margin-top: -675px;
+  right: 0;
+}
+body
+{
+    background-color: lightgreen;
+}
+form
+{
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+    margin-top: -500px;
+    text-align: center;
+}
+.container
+{
+    margin-top: 20px;
+}
+textarea
+{
+    margin-top: 20px;
+}
+.MensagemBotao
+{
+    margin-top: 20px;
+}
+.contactos
+{
+    background-color: green;
+    color: white;
+    width: 600px;
+    margin-left: 3%;
+}
+main
+{
+    display: flex;
+    justify-content: space-between;
+}
+iframe
+{
+    margin-top: 120px;
+}
+.contact
+{
+    margin-left: 10%;
+}

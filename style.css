@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+    background-color: green;
+}
+img
+{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+}
+ul
+{
+    color: white;
+    background-color: green;
+    column-gap: 60px;
+    display: flex;
+    justify-content: center;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+header nav ul li:first-child {
+    list-style-type: none;
+}
+i
+{
+    margin-right: 10px;
+}
+.linkt i
+{
+    margin-left: 10px;
+}
+footer
+{
+    text-align: center;
+    color: white;
+    background-color: green;
+    margin-top: 5%;
+}
+p
+{
+    display: flex;
+    justify-content: center;
+}
+.toldo
+{
+    z-index: -2;
+    margin-left: -140px;
+    position: absolute;
+    margin-top: -40px;
+    display: flex;
+}
+.toldo img {
+    padding: -10px;
+    width: 50%;
+    height: auto; 
+    margin: 0; 
+}
+main
+{
+    position: relative;
+    margin-top: 30px;
+    padding: 20px;
+    flex: 1;
+    z-index: -555;
+}
+.carousel-inner img {
+    width: 60%;
+    height: 100%;
+}
+body a
+{
+    color: white;
+    height: 100%;
+}
+body a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+.carousel-inner .item:nth-child(3) img {
+    height: 40%; 
+}
